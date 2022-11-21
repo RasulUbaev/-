@@ -1392,6 +1392,23 @@ img {
   color: #ffffff;
   cursor: pointer;
 }
+.main__rates__cards__item__btn:hover button {
+  width: 180px;
+  height: 48px;
+  background: transparent;
+  box-shadow: 0px 4px 12px rgba(0, 95, 137, 0.15);
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: 1px solid #4F4F4F;
+  color: #ffffff;
+  cursor: pointer;
+  color: #333333;
+}
 .main__rates__cards__item:hover p {
   color: #2B2B2B;
 }

@@ -119,6 +119,12 @@
                     }
                 }
 
+                &__btn:hover {
+                    button {
+                        @include btn3hov;
+                    }
+                }
+
         }
 
         &__item:hover p {
@@ -142,7 +148,9 @@
         }
     }
 
-    &__btn:hover button {
-        @include btn4hov;
+    &__btn:hover  {
+        button {
+             @include btn4hov;
+        }
     }
 }
