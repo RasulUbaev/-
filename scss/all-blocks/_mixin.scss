@@ -1,0 +1,196 @@
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+@mixin btn {
+    width: 204px;
+    height: 48px;
+    border: 1px solid #FFFFFF;
+    filter: drop-shadow(0px 4px 16px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $text-color-fff;
+    cursor: pointer;
+}
+
+@mixin btnHover {
+    background-color: $btn-hover-CDB;
+    border: none;
+    color: $text-color-fff;
+}
+
+
+@mixin btn2 {
+    width: 223px;
+    height: 40px;
+    border: 1px solid #4F4F4F;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@mixin btn2hov {
+    width: 223px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: $btn-hover-CDB;
+    border: none;
+    color: $text-color-fff; 
+}
+
+@mixin btn3 {
+    width: 180px;
+    height: 48px;
+    background: #2D9CDB;
+    box-shadow: 0px 4px 12px rgba(0, 95, 137, 0.15);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    border: none;
+    color: $text-color-fff;
+    cursor: pointer;
+}
+
+@mixin btn4 {
+    width: 160px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+    border: 1px solid #4F4F4F;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@mixin btn4hov {
+    width: 160px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $text-color-fff;
+    border: 1px solid ;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: $btn-hover-CDB;
+}
+
+@mixin btn5 {
+    width: 223px;
+    height: 48px;
+    border: 1px solid #4F4F4F;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+@mixin btn6 {
+    width: 223px;
+    height: 48px;
+    border: 1px solid;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    background-color: $btn-hover-CDB;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $text-color-fff;
+    cursor: pointer;
+}
+
+@mixin btn6hover {
+    width: 223px;
+    height: 48px;
+    border: 1px solid $text-color-2B;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    background-color: transparent;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: $text-color-333;
+    cursor: pointer;
+}
+
+
+@mixin grid {
+    display: grid;
+    grid-template-columns: 540px 540px;
+    gap: 30px 40px;
+}
+
+@mixin grid2 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+}
+
+
+@mixin ftrh4 {
+    font-weight: 800;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: $bg-color-fff;
+    padding: 0 8px;
+    margin-bottom: 9px;
+}
+
+@mixin ftrul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+@mixin ftrli {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 15px;
+    color: $text-color-f2;
+    padding: 0 8px;
+    border-right: 1px solid $text-color-f2;
+    margin: 0;
+}
+

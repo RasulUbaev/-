@@ -1,0 +1,109 @@
+.header {   
+    max-width: 100%;
+
+    &__nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        position: fixed;
+        background-color: transparent;
+        width: 100%;  
+
+        &__logo {
+            padding: 19px 74px 19px 19px;
+            background-color: $bg-color-fff;
+            border-radius: 0px 40px 40px 0px;
+        }
+
+        &__lists {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+
+            li {
+                a {
+                    font-weight: 600;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 0.05em;
+                    text-transform: uppercase;
+                    color: $text-color-fff;
+                    text-decoration: none;
+                }
+            }
+
+            li:hover a {
+                color: $text-color-2B;
+            }
+
+        }
+
+        &__link__res {
+            a {
+                img {
+                     display: none;
+                }
+            }
+           
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header {
+        max-width: 768px;
+       
+            &__nav {
+            background-color: $bg-color-fff;
+            width: 768px;
+            padding: 0 15px;
+
+
+            &__logo {
+                padding: inherit;
+                background-color: $bg-color-fff;
+                border-radius: inherit;
+                a {
+                    img {
+                        padding: 0;
+                    }
+                }
+            }
+
+            &__lists {
+                display: none;
+                li {
+                    display: none;
+                }
+            }
+
+            &__link {
+                .header__nav__link__res {
+                    a {
+                        img {
+                            display: block;
+                        }
+                    }
+                }
+                
+            }
+
+            &__link {
+                a {
+                    img {
+                        display: none;
+                    }
+                }
+            }
+
+            .header__nav__link__res {
+                a {
+                    display: flex;
+                    gap: 20px;
+                }
+            }
+        }
+    }
+        
+}

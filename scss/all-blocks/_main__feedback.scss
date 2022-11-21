@@ -1,0 +1,97 @@
+.main__feedback {
+    padding-top: 160px;
+
+    h2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        color: $text-color-333;
+        padding-bottom: 40px;
+    }
+
+    &__cards {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+
+        .main__feedback__card {
+            width: 540px;
+            height: 389px;
+            box-shadow: 0px 4px 24px rgba(51, 51, 51, 0.1);
+            border-radius: 9px;
+            padding: 24px 24px 32px 24px;
+
+            &__dodo {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            &__title {
+                h3 {
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 24px;
+                    color: $text-color-333;
+                    padding-bottom: 32px;
+                }
+
+                p {
+                    margin: 0;
+                    font-weight: 500;
+                    font-size: 8px;
+                    line-height: 8px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: $text-color-868;
+                    padding-bottom: 8px;
+                }
+            }
+
+            &__text {
+                padding-top: 24px;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 20px;
+                color: $text-color-333;
+                margin: 0;
+
+                p {
+                    margin: 0;
+                }
+            }
+
+            &__rost {
+                display: flex;
+                justify-content: space-between;
+                gap: 16px;
+
+
+
+            }
+        }
+    }
+
+    .main__feedback__navDots {
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .main__feedback__btn {
+        display: flex;
+        justify-content: center;
+
+        button {
+            @include btn6;
+
+        }
+    }
+
+    .main__feedback__btn:hover {
+        button {
+            @include btn6hover;
+        }
+    }
+}

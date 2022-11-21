@@ -1,0 +1,189 @@
+.main__corporative {
+    text-align: center;
+
+    h2 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        color: $text-color-333;
+        padding-bottom: 24px;
+    }
+
+    b {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+        color: $text-color-333;
+    }
+
+    &__lists {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 40px;
+
+        &__item {
+            text-align: end;
+
+            .corporative__item__icon__left {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+
+                .left__icon {
+                    background-image: url(..//..//images/svg/settings.png);
+                    background-repeat: no-repeat;
+                    height: 40px;
+                    width: 40px;
+                }
+
+                .left__icon__text {
+                    h5 {
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: $text-color-2B;
+                        padding-top: 8px;
+                    }
+
+                    p {
+                        margin: 0;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: $text-color-2B;
+                        width: 350px;
+                        text-align: right;
+                        padding-top: 8px;
+                    }
+                }
+            }
+
+            .corporative__item__icon__left__bottom {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                padding-top: 41px;
+
+                .bottom__icon {
+                    background-image: url(..//..//images/svg/security.png);
+                    width: 40px;
+                    height: 40px;
+                    background-repeat: no-repeat;
+                }
+
+                .bottom__icon__text {
+                    h5 {
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 22px;
+                        color: $text-color-2B;
+                        padding-top: 7px;
+                    }
+
+                    p {
+                        margin: 0;
+                        padding-top: 9px;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 20px;
+                        color: $text-color-2B;
+                    }
+                }
+            }
+
+            &__right {
+                width: 350px;
+
+                .corporative__item__icon__right {
+                    padding-top: 25px;
+
+                    .icon__top__right {
+                        background-image: url(..//..//images/svg/content.png);
+                        width: 40px;
+                        height: 40px;
+                        background-repeat: no-repeat;
+                    }
+
+                    .icon__top__right__text {
+                        text-align: start;
+
+                        h5 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: $text-color-2B;
+                            padding-top: 8px;
+                        }
+
+                        p {
+                            margin: 0;
+                            padding-top: 8px;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: $text-color-2B;
+                        }
+                    }
+                }
+
+                .corporative__item__icon__right__bottom {
+                    padding-top: 41px;
+
+                    .icon__top__right__sec {
+                        background-image: url(..//..//images/svg/network.png);
+                        width: 40px;
+                        height: 40px;
+                        background-repeat: no-repeat;
+                    }
+
+                    .icon__top__right__sec__text {
+                        text-align: start;
+
+                        h5 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: $text-color-2B;
+                            padding-top: 8px;
+                        }
+
+                        p {
+                            margin: 0;
+                            padding-top: 8px;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 20px;
+                            color: $text-color-2B;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .main__corporative__btn {
+            padding-top: 40px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        button {
+            @include btn5;
+            
+        }
+    }
+    .main__corporative__btn__left:hover {
+        background-color: $text-color-cdb;
+        border: none;
+        color: $text-color-fff;
+    }
+    .main__corporative__btn__right:hover {
+        background-color: $text-color-cdb;
+        border: none;
+        color: $text-color-fff;
+    }
+
+}

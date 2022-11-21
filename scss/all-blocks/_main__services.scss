@@ -1,0 +1,218 @@
+.main__services {
+    h2 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        color: $text-color-333;
+        padding-bottom: 40px;
+    }
+
+    &__cards {
+        list-style: none;
+        display: grid;
+        grid-template-columns: 540px 540px;
+        justify-content: center;
+        gap: 30px;
+        margin: 0;
+        padding: 0;
+        .main__service__card {
+            box-shadow: 0px 4px 16px rgba(51, 51, 51, 0.1);
+            border-radius: 9px;
+            background-color: $bg-color-fff;
+            padding: 40px 28px 0 48px;
+            height: 250px;
+            position: relative;
+            
+                h4 {
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: $text-color-333;
+                    padding-bottom: 10px;
+                }
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: $text-color-333;
+                    margin: 0;
+                }
+                img {
+                    position: absolute;
+                    bottom: 10%;
+                    left: 78%;
+                } 
+
+               
+             
+                 
+        }
+        .main__service__card-pro {
+            grid-column: 1/3;
+            box-shadow: 0px 4px 16px rgba(51, 51, 51, 0.1);
+            border-radius: 9px;
+            background-color: $bg-color-fff;
+            display: flex;
+            height: 320px;
+            position: relative;
+
+
+            .main__service__card__title {
+                padding: 40px 0 40px 48px;
+                width: 85%;
+                h4 {
+                    font-weight: 800;
+                    font-size: 24px;
+                    line-height: 28px;
+                    color: $text-color-333;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 20px;
+                    color: $text-color-333;
+                    width: 65%;
+                }
+
+                .service__card--btn {
+                    padding-top: 68px;
+                    button {
+                         @include btn2;
+                         padding: 0;
+                         text-align: center;
+                    }
+                }
+
+                .service__card--btn:hover {
+                    button {
+                         @include btn2hov; 
+                    }
+                }
+
+            }
+
+            .main__service__card__lists {
+                display: flex;
+                flex-direction: column;
+                gap: 25px;
+                list-style: none;
+                padding: 40px 24px 0px 0;
+                .card__list__item--iso {
+                    display: flex;
+                    align-items: center;
+                    gap: 25px;
+
+                    .item__iso--logo {
+                        img {
+                            width: 66px;
+                            height: 54px;
+                        }
+                    }
+
+                    .item__iso--text {
+                        width: 80%;
+                        margin: 0;
+                        p {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 146.28%;
+                            color: $text-color-2B;
+                            margin: 0;
+                        }
+                        a {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 18px;
+                            color: $text-color-744;
+                        }
+                    }
+
+                }
+                .card__list__item--vas {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    gap: 25px;
+                    .item__vas--ava {
+                        width: 90px;
+                        img {
+                            width: 66px;
+                            height: 66px;
+                        }
+                    }
+                    .item__vas--email {
+                        h4 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: $text-color-2B;
+                        }
+                        p {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 146.28%;
+                            color: $text-color-2B;
+                            margin: 0;
+                            a {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: $text-color-744;
+                            }
+                        }
+                    }
+
+                }
+
+                .card__list__item--nat {
+                    display: flex;
+                    align-items: center;
+                    gap: 25px;
+
+                    .item__nat--ava {
+                        width: 80px;
+                        img {
+                            width: 66px;
+                            height: 66px;
+                        }
+                    }
+
+                    .item__nat--email {
+                        h4 {
+                            font-weight: 700;
+                            font-size: 18px;
+                            line-height: 22px;
+                            color: $text-color-2B;
+                        }
+
+                        p {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 146.28%;
+                            color: $text-color-2B;
+                            margin: 0;
+                            a {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 18px;
+                                color: $text-color-744;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .five {
+                position: absolute;
+                top: 80%;
+                left: 90%;
+            }
+        }
+
+        
+        
+    }
+   
+}

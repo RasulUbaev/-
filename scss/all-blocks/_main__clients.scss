@@ -1,0 +1,21 @@
+.main__clients {
+    padding: 0;
+    &__lists {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0; 
+        &__item {
+            text-align: center;
+            p {
+                width: 70%;
+                margin: auto;
+                padding-top: 16px;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 22px;
+                color: $text-color-333;
+            }
+        }
+    }
+}

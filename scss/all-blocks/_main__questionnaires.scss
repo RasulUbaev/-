@@ -1,0 +1,42 @@
+.main__questionnaires {
+    text-align: center;
+    h2 {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 40px;
+        color: $text-color-333;
+        padding-bottom: 24px;
+        margin: 0;
+    }
+    span {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        color: $text-color-333;
+        padding-bottom: 8px;
+    }
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+        color: $text-color-333;
+        width: 40%;
+        margin: auto;
+    }
+
+    &__img__box {
+        display: flex;
+        padding: 64px 0 0 0;
+        margin: 0 auto;
+        max-width: 100%;
+        justify-content: center;
+        .img__box__flex {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+    &__navDots {
+        padding-top: 24px;
+    }
+}

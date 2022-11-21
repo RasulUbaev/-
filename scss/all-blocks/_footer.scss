@@ -1,0 +1,174 @@
+.footer {
+    background-color: $bg-color-footer;
+    margin-top: 150px;
+    height: 669px;
+    .footer__container {
+        display: flex;
+        justify-content: space-around;
+        padding: 50px 0;
+        .footer__title {
+            width: 60%;
+
+            .footer__title__constructor {
+                padding-bottom: 32px;   
+                h4 {
+                    @include ftrh4;
+                }
+
+                div {
+                    @include ftrul;
+                    p {
+                       @include ftrli;
+                    }
+                }
+            }
+
+            .footer__title__products {
+                padding-bottom: 32px;
+                h4 {
+                    @include ftrh4;
+                }
+                div {
+                    @include ftrul;
+                    p {
+                       @include ftrli;
+                    }
+                }
+            }
+
+            .footer__title__services {
+                padding-bottom: 32px;
+                h4 {
+                    @include ftrh4;
+                }
+                div {
+                    @include ftrul;
+                    p {
+                       @include ftrli;
+                    }
+                }
+            }
+
+            .footer__title__store {
+                padding-bottom: 32px;
+                h4 {
+                    @include ftrh4;
+                }
+                div {
+                    @include ftrul;
+                    p {
+                       @include ftrli;
+                    }
+                }
+            }
+
+            .footer__title__community {
+                padding-bottom: 32px;
+                h4 {
+                    @include ftrh4;
+                }
+                div {
+                    @include ftrul;
+                    p {
+                       @include ftrli;
+                    }
+                }
+            }
+
+            .footer__title__resource {
+                padding-bottom: 32px;
+                h4 {
+                    @include ftrh4;
+                }
+                div {
+                    @include ftrul;
+                    p {
+                       @include ftrli;
+                    }
+                }
+            }
+
+            .footer__title__information {
+                padding-bottom: 15px;
+                height: 74px;
+                h4 {
+                    @include ftrh4;
+                }
+                div {
+                    @include ftrul;
+                    p {
+                       @include ftrli;
+                       margin: 0;
+                       
+                    }
+                }
+            }
+
+            .footer__title__program {
+                padding-bottom: 15px;
+                height: 74px;
+                h4 {
+                    @include ftrh4;
+                }
+                div {
+                    @include ftrul;
+                    p {
+                       @include ftrli;
+                    }
+                }
+            }
+            
+        }
+
+
+        .footer__socials {
+            h4 {
+                font-weight: 800;
+                font-size: 12px;
+                line-height: 15px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                color: $text-color-fff;
+                padding-bottom: 24px;
+            }
+
+            &__input {
+                display: flex;
+                gap: 20px;
+                padding-bottom: 30px;
+                label {
+                    input {
+                        height: 44px;
+                        background-color: $bg-color-inp;
+                        color: $text-color-BD;
+                        border: none;
+                    }
+                }
+            }
+
+            &__links {
+                padding: 0;
+                h4 {
+                    font-weight: 800;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    color: $text-color-fff;
+                }
+                ul {
+                    display: flex;
+                    list-style: none;
+                    padding: 0;
+                    gap: 18px;
+                }
+            }
+
+            &__logolink {
+                position: relative;
+                top: 50%;
+            }
+        }
+    }
+}
+    
